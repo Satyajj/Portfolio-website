@@ -41,5 +41,3 @@ I've **not** hosted it yet, but if you want to:
 That’s it for now! 😎 Let me know if you have any suggestions.  
 
 ---
-
-Do you want any changes or additions?
