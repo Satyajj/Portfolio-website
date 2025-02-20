@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/576069ed83.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+     <div class="container">
+        <nav>
+            <a href="https://www.instagram.com/oyechotii" target="_blank">
+            <img src="images/logo.png" class="logo">
+        </a>
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark fa-lg" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>Hello!</p>
+        <h1>I'm <span>Satyaj</span>,</h1>
+        <h2><span class="brace">{</span><span class="braced">Software Developer and Designer</span><span class="brace">}</span><span class="semicolon">;</span></h2>
+     </div>
+    </div>
+</div>
+<!--------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg" alt="Satyaj Sundaram">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Satyaj Sundaram, a passionate Software Developer and Designer with a strong foundation in both coding and creative problem-solving. I specialize in technologies like Java, Python, JavaScript, and Android Development. My goal is to build impactful, user-friendly software solutions that meet both technical and design requirements.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Java, Python, JavaScript</li>
+                        <li><span>Data Structures & Algorithms</span><br>Problem-solving, Algorithm Optimization</li>
+                        <li><span>Web Development</span><br>HTML, CSS, JavaScript, Responsive Web Design</li>
+                        <li><span>Mobile Development</span><br>Android App Development</li>
+                        <li><span>Databases</span><br>MySQL, SQL Essentials</li>
+                        <li><span>Version Control</span><br>Git</li>
+                        <li><span>UI/UX Design</span><br>Design for Web & Mobile Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>sdfretgtre regergreg rgretert</span><br>rgdfgvfdg erfgvfdcbreg rfdg dcgregfg  - Jun’24 to Dec’24</li>
+                        <li><span>sgvfdgbvr rsgdfvdsvdfscgv</span><br>dsfsdgsdf - Jun’24 to Dec’24</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Amity University Jharkhand</span><br>Bachelor of Computer Applications (BCA) <br> CGPA: 8.0 | 2022 - 2025</li>
+                        <li><span>Rose Public School, India</span><br>CBSE (Class XII) | 2020 - 2021</li>
+                        <li><span>Rose Public School, India</span><br>CBSE (Class X) |  2017 - 2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code fa-lg"></i>
+                <h2>Web Development</h2>
+                <p>Creating responsive, dynamic, and user-friendly websites. I specialize in front-end and back-end development, ensuring seamless user experiences and high-quality code. Whether it's a small personal project or a large-scale web application, I can help bring your ideas to life.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android fa-lg"></i>
+                <h2>App Development</h2>
+                <p>Designing and developing mobile applications that provide a smooth user experience. I focus on building robust Android applications with intuitive interfaces, ensuring your app performs well across various devices and platforms.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad fa-lg"></i>
+                <h2>Game Development</h2>
+                <p>Developing engaging and interactive games for various platforms. With experience in game design, I bring creativity and innovation into the gaming world, delivering both enjoyable and challenging experiences for players.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="Event Management System">
+                <div class="layer">
+                    <h3>Event Management System</h3>
+                    <p>A comprehensive Java-based system designed to manage events, track attendance, and store member details. This project showcases my ability to build full-fledged management systems.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="2048 Game Implementation">
+                <div class="layer">
+                    <h3>2048 Game Implementation</h3>
+                    <p>Developed the popular 2048 game using Java, employing data structures like stacks and queues. This project demonstrates my problem-solving skills and understanding of game logic.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="Sudoku Solver">
+                <div class="layer">
+                    <h3>Sudoku Solver</h3>
+                    <p>Created a Java-based Sudoku solver using backtracking algorithms. This project highlights my skills in recursion and problem-solving to deliver an efficient solution for solving puzzles in real-time.</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">View All Projects</a>
+    </div>
+</div>
+
+<!--------contact-------------->
+<div id="contact"></div>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Satyaj.works@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 79033 53266</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/isatyaj/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/oyechotii"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/Sanskaaari"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Satyajj"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Satyaj. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabName){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw5e8oOCJfFfE27tRNTURKc7hHT1RFaHMN4z_c31--enC5CAz6Zmj1D22xKANi3Diqjwg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000);
+            form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
